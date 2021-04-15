@@ -25,6 +25,7 @@ class _HomepageState extends State<Homepage> {
                 child: Row(
                   //mainAxisAlignment: MainAxisAlignment.center,
                   //crossAxisAlignment: CrossAxisAlignment.center,
+                  // Testing
                   children: [
                     SizedBox(
                       width: SizeConfig.widthProportionate(context, 10),
