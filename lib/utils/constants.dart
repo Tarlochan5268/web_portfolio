@@ -8,3 +8,5 @@ const kThemeBlueColor = Color(0xff0f3460);
 const kThemePinkColor = Color(0xffc70039);
 
 final navigatorKey = GlobalKey<NavigatorState>();
+
+String imgPath = './images/';

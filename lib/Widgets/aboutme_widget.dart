@@ -47,7 +47,7 @@ class AboutMeWidget extends StatelessWidget {
             Row(
               children: [
                 IconMidWidget(
-                  assetUrl: 'images/androidstudio.png',
+                  assetUrl: imgPath + 'androidstudio.png',
                 ),
                 IconMidWidget(
                   assetUrl: 'images/xcode.png',
