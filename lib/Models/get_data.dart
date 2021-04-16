@@ -81,9 +81,11 @@ class CustomImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Image(
-      image: AssetImage('/images/$imageURL'),
+      image: AssetImage('./images/$imageURL'),
       height: 100,
       width: 200,
     );
   }
 }
+
+//image: AssetImage('/images/$imageURL'),
