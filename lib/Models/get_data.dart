@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:web_portfolio/Models/project.dart';
 import 'package:web_portfolio/Widgets/project_card.dart';
+import 'package:web_portfolio/utils/constants.dart';
 
 const String MONEY_EXPENSES_APP = "moneyExpenseApp/";
 const String IN_SHARE_APP = "inshareapp/";
@@ -81,7 +82,7 @@ class CustomImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Image(
-      image: AssetImage('images/$imageURL'),
+      image: NetworkImage(imgPath+'$imageURL'),
       height: 100,
       width: 200,
     );
