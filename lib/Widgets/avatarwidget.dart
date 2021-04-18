@@ -21,7 +21,10 @@ class AvatarWidget extends StatelessWidget {
           ),
           child: CircleAvatar(
             backgroundColor: Colors.transparent,
-            backgroundImage: AssetImage(imgPath + 'profile.png'),
+            //backgroundImage: AssetImage(imgPath + 'profile.png'),
+            backgroundImage: NetworkImage(
+              "https://drive.google.com/uc?export=view&id=1a3zTT8nBhBWxgaHL6XfDWlakyH1K-apU",
+            ),
             radius: 100,
           ),
         );
