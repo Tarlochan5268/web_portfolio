@@ -23,7 +23,7 @@ class AvatarWidget extends StatelessWidget {
             backgroundColor: Colors.transparent,
             //backgroundImage: AssetImage(imgPath + 'profile.png'),
             backgroundImage: NetworkImage(
-              "https://drive.google.com/uc?export=view&id=1a3zTT8nBhBWxgaHL6XfDWlakyH1K-apU",
+              "https://cors.bridged.cc/https://drive.google.com/uc?export=view&id=1a3zTT8nBhBWxgaHL6XfDWlakyH1K-apU",
             ),
             radius: 100,
           ),
