@@ -65,7 +65,7 @@ class AboutMeWidget extends StatelessWidget {
                   assetUrl: 'kotlin.png',
                 ),
                 IconMidWidget(
-                  assetUrl: 'images/firebase.png',
+                  assetUrl: 'firebase.png',
                 ),
               ],
             ),
