@@ -21,7 +21,7 @@ class AvatarWidget extends StatelessWidget {
           ),
           child: CircleAvatar(
             backgroundColor: Colors.transparent,
-            backgroundImage: NetworkImage('assets/myimages/profile.png'),
+            backgroundImage: NetworkImage('myimages/profile.png'),
             //backgroundImage: NetworkImage("assets/images/profile.png"),
             /*backgroundImage: NetworkImage(
               "https://cors.bridged.cc/https://drive.google.com/uc?export=view&id=1a3zTT8nBhBWxgaHL6XfDWlakyH1K-apU",
