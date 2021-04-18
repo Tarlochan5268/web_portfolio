@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:web_portfolio/utils/constants.dart';
 
 class IconMidWidget extends StatelessWidget {
   final String assetUrl;
@@ -11,8 +12,8 @@ class IconMidWidget extends StatelessWidget {
       child: Tab(
         icon: Container(
           child: Image(
-            image: AssetImage(
-              '$assetUrl',
+            image: NetworkImage(
+              imgPath + '$assetUrl',
             ),
             fit: BoxFit.cover,
           ),

@@ -47,22 +47,22 @@ class AboutMeWidget extends StatelessWidget {
             Row(
               children: [
                 IconMidWidget(
-                  assetUrl: imgPath + 'androidstudio.png',
+                  assetUrl: 'androidstudio.png',
                 ),
                 IconMidWidget(
-                  assetUrl: 'images/xcode.png',
+                  assetUrl: 'xcode.png',
                 ),
                 IconMidWidget(
-                  assetUrl: 'images/flutter.png',
+                  assetUrl: 'flutter.png',
                 ),
                 IconMidWidget(
-                  assetUrl: 'images/java.png',
+                  assetUrl: 'java.png',
                 ),
                 IconMidWidget(
-                  assetUrl: 'images/swift.png',
+                  assetUrl: 'swift.png',
                 ),
                 IconMidWidget(
-                  assetUrl: 'images/kotlin.png',
+                  assetUrl: 'kotlin.png',
                 ),
                 IconMidWidget(
                   assetUrl: 'images/firebase.png',
