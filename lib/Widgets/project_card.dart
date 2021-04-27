@@ -73,10 +73,10 @@ class _ProjectCardState extends State<ProjectCard> {
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Padding(
-                padding: const EdgeInsets.symmetric(vertical: 20),
-                child: Flexible(
-                  flex: 1,
+              Flexible(
+                flex: 1,
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 20),
                   child: Text(
                     "${project.projectName}",
                     textAlign: TextAlign.center,
